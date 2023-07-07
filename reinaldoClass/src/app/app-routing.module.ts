@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'cSharp', loadChildren: () => import('./c-sharp/c-sharp.module').then(module => module.CSharpModule), canActivate: [AuthGuard]},
   { path: 'dataBase', loadChildren: () => import('./data-base/data-base.module').then(module => module.DataBaseModule), canActivate: [AuthGuard] },
   { path: 'auth', loadChildren: () => import('./_auth/auth.module').then(module => module.AuthModule) },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: 'body' }
 
 
 ];

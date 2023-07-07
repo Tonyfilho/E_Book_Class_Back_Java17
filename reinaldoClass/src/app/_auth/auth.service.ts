@@ -36,11 +36,11 @@ export class AuthService {
 
 
   autoLogin() {
-    const localUserStorage: { email: string; id: string; _token: string; _tokenExpirationDate: string; } = JSON.parse(localStorage.getItem('userData') as string);
+    const localUserStorage: { email: string; userId: string; _token: string; _tokenExpirationDate: string; } = JSON.parse(localStorage.getItem('userData') as string);
     if (!localUserStorage) {
       return;
     }
-    const localUserLogin = new UserTokenModel(localUserStorage.email, localUserStorage.id, localUserStorage._token, new Date(localUserStorage._tokenExpirationDate));
+    const localUserLogin = new UserTokenModel(localUserStorage.email, localUserStorage.userId, localUserStorage._token, new Date(localUserStorage._tokenExpirationDate));
     if (localUserLogin.token) {
       this.isUserLogin.next(localUserLogin);
       /**
