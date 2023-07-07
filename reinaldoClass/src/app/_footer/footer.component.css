@@ -1,6 +1,6 @@
 .container {
  width: fit-content;
- height: 4vh;
+ height: max-content;
  display: flex;
  align-items: center;
 

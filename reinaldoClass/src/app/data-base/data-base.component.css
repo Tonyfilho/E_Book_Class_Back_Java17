@@ -30,7 +30,7 @@ a:hover{
 
 main {
   background: linear-gradient(68.15deg, #0505f3 16.62%, #055160 85.61%);
-  height: 88vh;
+  height: fit-content;
   box-shadow: 0 0 25px 0.5em #9b9baca9,
     inset 0 0 25px 0.25em #17171aa9,
     inset 0 0 5em 0px #7a52e78f;
@@ -56,8 +56,8 @@ h2 {
 
 
 /* ------------------centralizando as imagens--------------------------- */
-.image {
-  height: fit-content;
+.local-image {
+  /* height: 100%; */
   display: grid;
   place-items: center;
   padding: 3%;
@@ -68,7 +68,7 @@ img {
   border-color: rgba(146, 144, 144, 0.582);
   border-style: solid ;
   box-sizing: 2px;
-  width: 65%;
+  width: 80%;
   object-fit: fill;
 
 }

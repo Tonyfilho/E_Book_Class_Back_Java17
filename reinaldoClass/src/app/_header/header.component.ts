@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor(private auth: AuthService) {
     this.userSubs =  this.auth.isUserLogin.subscribe(user => {
      this.isAuthenticated = user ? true : false;// vendo se estou Autenticado
-      console.log('isAuthenticated: ',this.isAuthenticated, 'User: ', user);
+      // console.log('isAuthenticated: ',this.isAuthenticated, 'User: ', user);
     })
 
    }
