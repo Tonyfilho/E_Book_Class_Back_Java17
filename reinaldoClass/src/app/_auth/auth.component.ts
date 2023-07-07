@@ -4,6 +4,7 @@ import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms
 import { Router } from '@angular/router';
 import { IAuthApiToken } from 'src/app/_share/Interfaces/iAuthRestApi';
 import { AuthService } from './auth.service';
+import { JsonPipe } from '@angular/common';
 
 
 @Component({
@@ -44,19 +45,16 @@ export class AuthComponent implements OnInit {
       this.authService.signInUser(this.authenticationForm.get('email')?.value, this.authenticationForm.get('password')?.value).subscribe(
         {
           next: (data: IAuthApiToken) => {
-            console.log('Response Data in the Auth: ',data)
-            // this.localModalSucess.name = 'All Right!!! ';
-            // this.localModalSucess['status'] = 'Welcome';
-            // this.localModalSucess['statusText'] = 'You are Login';
-            // this.displayStyle.displayStyle = 'alert-success';
+           // console.log('Response Data in the Auth: ',data)
+           this.localModalSucess['statusText'] = 'Alright, alright everything ok !!: ' + data.email;
             this.isSucess = true;
           },
           error: (e: any) => {
             this.isLodingSpinner = false;
            //o erro vem pelo Subscribe
-           // console.log('error do e: ', e);
+          //  console.log('error do e: ', e);
             this.localModal.name = 'Ops... Some thing Wrong :';
-            this.localModal['status'] = e + '401'
+            this.localModal['status'] =  e.error.error['message'] +  ': 401'
             this.displayStyle.displayStyle = 'alert-danger';
             this.openModal();
 
@@ -84,24 +82,24 @@ export class AuthComponent implements OnInit {
     this.authenticationForm.reset()
   }
 
-  errorFireBaseSignUp(error: string) {
-    switch (error) {
-      case 'EMAIL_EXISTS':
-       this.localModal.statusText = 'The email address is already in use by another account.';
-        break;
-      case 'OPERATION_NOT_ALLOWED':
-       this.localModal.statusText = 'Password sign-in is disabled for this project.';
-        break;
-      case 'TOO_MANY_ATTEMPTS_TRY_LATER':
-       this.localModal.statusText = 'There is no user record corresponding to this identifier. The user may have been deleted.';
-        break;
+  // errorFireBaseSignUp(error: string) {
+  //   switch (error) {
+  //     case 'EMAIL_EXISTS':
+  //      this.localModal.statusText = 'The email address is already in use by another account.';
+  //       break;
+  //     case 'OPERATION_NOT_ALLOWED':
+  //      this.localModal.statusText = 'Password sign-in is disabled for this project.';
+  //       break;
+  //     case 'TOO_MANY_ATTEMPTS_TRY_LATER':
+  //      this.localModal.statusText = 'There is no user record corresponding to this identifier. The user may have been deleted.';
+  //       break;
 
-      default:
-        this.localModal.statusText = 'An unkown error occurred!. ';
-        break;
-    }
+  //     default:
+  //       this.localModal.statusText = 'An unkown error occurred!. ';
+  //       break;
+  //   }
 
-   }
+  //  }
 
 
 }

@@ -19,7 +19,7 @@ export class AuthService {
   signInUser(email: string, password: string) {
     return this.http.post<IAuthApiToken>(LOGIN_END_POINT,
       {email: email, password: password, returnSecureToken: true}).pipe(tap(res => {
-        console.log('handleAuthentication: ', res);
+     //   console.log('handleAuthentication: ', res);
         this.handleAuthentication(res.email, res.localId, res.idToken, +res.expiresIn);
       }))
 
