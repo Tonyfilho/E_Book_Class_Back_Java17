@@ -16,8 +16,8 @@ import { AuthGuard } from './_auth/auth-guard';
 const routes: Routes = [
   { path: '', redirectTo: 'body', pathMatch: 'full' },
   { path: 'body', component: BodyComponent },
-  { path: 'cSharp', loadChildren: () => import('./c-sharp/c-sharp.module').then(module => module.CSharpModule), canActivate: [AuthGuard]},
-  { path: 'dataBase', loadChildren: () => import('./data-base/data-base.module').then(module => module.DataBaseModule), canActivate: [AuthGuard] },
+  { path: 'java', loadChildren: () => import('./java/java.module').then(module => module.JavaModule), canActivate: [AuthGuard]},
+//  { path: 'dataBase', loadChildren: () => import('./data-base/data-base.module').then(module => module.DataBaseModule), canActivate: [AuthGuard] },
   { path: 'auth', loadChildren: () => import('./_auth/auth.module').then(module => module.AuthModule) },
   { path: '**', redirectTo: 'body' }
 
