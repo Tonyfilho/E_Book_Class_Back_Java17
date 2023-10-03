@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './_header/header.component';
 import { FooterComponent } from './_footer/footer.component';
 
-import { CSharpComponent } from './c-sharp/c-sharp.component';
+
 import { BodyComponent } from './_body/body.component';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
@@ -17,8 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AuthInterceptorService } from './_auth/auth-interceptor.service';
 import { AuthModule } from './_auth/auth.module';
-import { CSharpModule } from './c-sharp/c-sharp.module';
-import { DataBaseModule } from './data-base/data-base.module';
+
 
 
 @NgModule({
@@ -26,7 +25,7 @@ import { DataBaseModule } from './data-base/data-base.module';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CSharpComponent,
+
     BodyComponent,
 
 
@@ -41,8 +40,7 @@ import { DataBaseModule } from './data-base/data-base.module';
     ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
-    CSharpModule,
-    DataBaseModule,
+   
 
 
 
