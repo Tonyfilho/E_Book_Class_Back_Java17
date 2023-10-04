@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { StaticXInstanceComponent } from './ooP-Part01/static-x-instance/static-x-instance.component';
 import { OoPPart01Component } from './ooP-Part01/ooP-Part01.component';
 import { StaticXInstanceMethodsComponent } from './ooP-Part01/static-x-instance-methods/static-x-instance-methods.component';
+import { PojoComponent } from './ooP-Part01/pojo/pojo.component';
+import { RecordComponent } from './ooP-Part01/record/record.component';
 
 
 const JAVA_ROUTER = [
@@ -14,6 +16,8 @@ const JAVA_ROUTER = [
   {path: "ooP-Part01/static-X-instance", component: StaticXInstanceComponent},
   {path: "ooP-Part01/static-X-methods", component: StaticXInstanceMethodsComponent},
   {path: "ooP-Part01/reference-x-object-x-instance-x-class", component: ReferenceXObjectXInstanceXClassComponent},
+  {path: "ooP-Part01/pojo", component: PojoComponent},
+  {path: "ooP-Part01/record", component: RecordComponent},
 ];
 
 @NgModule({
@@ -22,7 +26,9 @@ const JAVA_ROUTER = [
     ReferenceXObjectXInstanceXClassComponent,
     StaticXInstanceComponent,
     OoPPart01Component,
-    StaticXInstanceMethodsComponent
+    StaticXInstanceMethodsComponent,
+    PojoComponent,
+    RecordComponent
   ],
   imports: [
     CommonModule,
