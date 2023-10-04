@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-record',
-  templateUrl: './record.component.html',
+  selector: 'app-part01',
+  templateUrl: './part01.component.html',
   styleUrls: ['./../../share-class.component.css']
 })
-export class RecordComponent {
+export class Part01Component {
 
 }
