@@ -18,6 +18,7 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AuthInterceptorService } from './_auth/auth-interceptor.service';
 import { AuthModule } from './_auth/auth.module';
 import { JavaModule } from './java/java.module';
+import { InheritanceModule } from './java/inheritance/inheritance.module';
 
 
 
@@ -26,7 +27,6 @@ import { JavaModule } from './java/java.module';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-
     BodyComponent,
 
 
@@ -42,6 +42,7 @@ import { JavaModule } from './java/java.module';
     HttpClientModule,
     FormsModule,
     JavaModule,
+    InheritanceModule,
 
 
 

@@ -10,6 +10,7 @@ import { PojoComponent } from './ooP-Part01/pojo/pojo.component';
 import { RecordComponent } from './ooP-Part01/record/record.component';
 
 
+
 const JAVA_ROUTER = [
   {path: "", component: JavaComponent},
   {path: "ooP-Part01", component: OoPPart01Component},
@@ -28,7 +29,8 @@ const JAVA_ROUTER = [
     OoPPart01Component,
     StaticXInstanceMethodsComponent,
     PojoComponent,
-    RecordComponent
+    RecordComponent,
+    
   ],
   imports: [
     CommonModule,
