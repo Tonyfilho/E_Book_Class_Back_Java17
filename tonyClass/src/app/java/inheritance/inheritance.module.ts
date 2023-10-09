@@ -8,6 +8,7 @@ import { Part03Component } from './part03/part03.component';
 import { JavaLangObjectComponent } from './java-lang-object/java-lang-object.component';
 import { InherintanceExampleComponent } from './inherintance-example/inherintance-example.component';
 import { ThisXSuperComponent } from './this-x-super/this-x-super.component';
+import { MethodOverloadingXOverridingComponent } from './method-overloading-x-overriding/method-overloading-x-overriding.component';
 
 const INHERITANCE_ROUTER = [
   {path: '', component: InheritanceComponent},
@@ -17,6 +18,7 @@ const INHERITANCE_ROUTER = [
   {path: 'inheritance', component: InherintanceExampleComponent },
   {path: 'java-lang-object', component: JavaLangObjectComponent },
   {path: 'this-x-super', component: ThisXSuperComponent },
+  {path: 'method-overloading-x-overriding', component: MethodOverloadingXOverridingComponent },
 ];
 
 @NgModule({
@@ -27,7 +29,8 @@ const INHERITANCE_ROUTER = [
     Part03Component,
     JavaLangObjectComponent,
     InherintanceExampleComponent,
-    ThisXSuperComponent
+    ThisXSuperComponent,
+    MethodOverloadingXOverridingComponent
   ],
   imports: [
     CommonModule,
