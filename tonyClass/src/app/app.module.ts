@@ -20,6 +20,8 @@ import { AuthModule } from './_auth/auth.module';
 import { JavaModule } from './java/java.module';
 import { InheritanceModule } from './java/inheritance/inheritance.module';
 import { StringModule } from './java/string/string.module';
+import { OoPPart02Module } from './java/oop-part02/oop-part02.module';
+
 
 
 
@@ -45,6 +47,7 @@ import { StringModule } from './java/string/string.module';
     JavaModule,
     InheritanceModule,
     StringModule,
+    OoPPart02Module,
 
 
 
