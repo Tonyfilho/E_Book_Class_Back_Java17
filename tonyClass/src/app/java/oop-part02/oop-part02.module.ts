@@ -8,7 +8,14 @@ import { PolymorphismComponent } from './polymorphism/polymorphism.component';
 
 
 const JAVA_OPP_PART02_ROUTER = [
-  {path: "", component: OopPart02Component},];
+  {path: "", component: OopPart02Component},
+  {path: "composition", component: CompositionComponent},
+  {path: "encapsulation", component: EncapsulationComponent},
+  {path: "polymorphism", component: PolymorphismComponent},
+
+
+
+];
 
 @NgModule({
   declarations: [
