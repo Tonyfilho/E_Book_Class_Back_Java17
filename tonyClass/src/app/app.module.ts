@@ -19,6 +19,7 @@ import { AuthInterceptorService } from './_auth/auth-interceptor.service';
 import { AuthModule } from './_auth/auth.module';
 import { JavaModule } from './java/java.module';
 import { InheritanceModule } from './java/inheritance/inheritance.module';
+import { StringModule } from './java/string/string.module';
 
 
 
@@ -43,6 +44,8 @@ import { InheritanceModule } from './java/inheritance/inheritance.module';
     FormsModule,
     JavaModule,
     InheritanceModule,
+    StringModule,
+
 
 
 
