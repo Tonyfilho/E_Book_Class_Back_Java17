@@ -5,6 +5,7 @@ import { OopPart02Component } from './oop-part02.component';
 import { EncapsulationComponent } from './encapsulation/encapsulation.component';
 import { CompositionComponent } from './composition/composition.component';
 import { PolymorphismComponent } from './polymorphism/polymorphism.component';
+import { CastingWithClassComponent } from './casting-with-class/casting-with-class.component';
 
 
 const JAVA_OPP_PART02_ROUTER = [
@@ -12,6 +13,7 @@ const JAVA_OPP_PART02_ROUTER = [
   {path: "composition", component: CompositionComponent},
   {path: "encapsulation", component: EncapsulationComponent},
   {path: "polymorphism", component: PolymorphismComponent},
+  {path: "casting-class", component: CastingWithClassComponent},
 
 
 
@@ -22,7 +24,8 @@ const JAVA_OPP_PART02_ROUTER = [
     OopPart02Component,
     EncapsulationComponent,
     CompositionComponent,
-    PolymorphismComponent
+    PolymorphismComponent,
+    CastingWithClassComponent
   ],
   imports: [
     CommonModule,
