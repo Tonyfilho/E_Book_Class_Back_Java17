@@ -20,6 +20,7 @@ const routes: Routes = [
    { path: 'java/inheritance', loadChildren: () => import('./java/inheritance/inheritance.module').then(module => module.InheritanceModule), canActivate: [AuthGuard] },
    { path: 'java/string', loadChildren: () => import('./java/string/string.module').then(module => module.StringModule), canActivate: [AuthGuard] },
    { path: 'java/oop-part02', loadChildren: () => import('./java/oop-part02/oop-part02.module').then(module => module.OoPPart02Module), canActivate: [AuthGuard] },
+  { path: 'java/casting', loadChildren: () => import('./java/casting/casting.module').then(module => module.CastingModule) },
   { path: 'auth', loadChildren: () => import('./_auth/auth.module').then(module => module.AuthModule) },
   { path: '**', redirectTo: 'body' }
 

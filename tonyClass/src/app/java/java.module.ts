@@ -9,14 +9,13 @@ import { OoPPart01Component } from './ooP-Part01/ooP-Part01.component';
 import { StaticXInstanceMethodsComponent } from './ooP-Part01/static-x-instance-methods/static-x-instance-methods.component';
 import { PojoComponent } from './ooP-Part01/pojo/pojo.component';
 import { RecordComponent } from './ooP-Part01/record/record.component';
-import { TestingRuntimeComponent } from './testing-runtime/testing-runtime.component';
+
 
 
 
 
 const JAVA_ROUTER = [
-  {path: "", component: JavaComponent},
-  {path: "testing-runtime", component: TestingRuntimeComponent},
+  {path: "", component: JavaComponent}, 
   {path: "ooP-Part01", component: OoPPart01Component},
   {path: "ooP-Part01/static-X-instance", component: StaticXInstanceComponent},
   {path: "ooP-Part01/static-X-methods", component: StaticXInstanceMethodsComponent},
@@ -34,7 +33,7 @@ const JAVA_ROUTER = [
     StaticXInstanceMethodsComponent,
     PojoComponent,
     RecordComponent,
-    TestingRuntimeComponent,
+    
 
 
 
