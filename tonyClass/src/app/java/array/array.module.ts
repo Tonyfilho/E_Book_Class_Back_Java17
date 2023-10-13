@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArrayComponent } from './array.component';
-import { ArraysComponent as ArraysComponent } from './arrays/arrays.component';
+import { ArraysComponent } from './arrays/arrays.component';
 
 const JAVA_ARRAY = [
   {path: "", component: ArrayComponent},
@@ -9,6 +9,7 @@ const JAVA_ARRAY = [
 
 
 ];
+
 
 @NgModule({
   declarations: [
