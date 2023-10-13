@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-arrays',
   templateUrl: './arrays.component.html',
-  styleUrls: ['./arrays.component.css']
+  styleUrls: ['./../../share-class.component.css']
 })
 export class ArraysComponent {
 

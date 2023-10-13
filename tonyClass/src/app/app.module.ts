@@ -22,6 +22,7 @@ import { InheritanceModule } from './java/inheritance/inheritance.module';
 import { StringModule } from './java/string/string.module';
 import { OoPPart02Module } from './java/oop-part02/oop-part02.module';
 import { CastingModule } from './java/casting/casting.module';
+import { ArrayModule } from './java/array/array.module';
 
 
 
@@ -50,6 +51,7 @@ import { CastingModule } from './java/casting/casting.module';
     StringModule,
     OoPPart02Module,
     CastingModule,
+    ArrayModule,
 
 
 
