@@ -7,10 +7,10 @@
 .col {
   padding: 0% !important;
 }
-.main {
+/* .main {
   width: 100%;
-  height: 100vh;
-}
+  min-height: 98vh;
+} */
 
 span {
   padding-left: 1%;
@@ -31,8 +31,8 @@ a:hover {
 
 body {
   width: 100%;
-  min-height: 100%;
-  height: max-content;
+  min-height: 98vh;
+  /* height: max-content; */
   background: linear-gradient(68.15deg, #09031f 14.62%, #e0e2e6 85.61%);
   position: relative;
   box-shadow: -1em -1em 25px 0em #0d0d0ea9,
