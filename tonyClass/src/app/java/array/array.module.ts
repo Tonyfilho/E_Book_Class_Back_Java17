@@ -6,6 +6,7 @@ import { JavaUtilArrayComponent } from './java-util-array/java-util-array.compon
 import { RouterModule } from '@angular/router';
 import { SeachInArrayComponent } from './seach-in-array/seach-in-array.component';
 import { RefMemoryXValueTypeComponent } from './ref-memory-x-value-type/ref-memory-x-value-type.component';
+import { VariableArgumentsComponent } from './variable-arguments/variable-arguments.component';
 
 const JAVA_ARRAY = [
   {path: "", component: ArrayComponent},
@@ -13,6 +14,7 @@ const JAVA_ARRAY = [
   {path: "java-util-array", component: JavaUtilArrayComponent},
   {path: "find-a-match-in-array", component: SeachInArrayComponent},
   {path: "ref-memory-x-value-type", component: RefMemoryXValueTypeComponent},
+  {path: "variable-arguments", component: VariableArgumentsComponent},
 
 
 ];
@@ -23,7 +25,8 @@ const JAVA_ARRAY = [
     ArrayComponent,
     ArraysComponent,
     SeachInArrayComponent,
-    RefMemoryXValueTypeComponent
+    RefMemoryXValueTypeComponent,
+    VariableArgumentsComponent
   ],
   imports: [
     CommonModule,
