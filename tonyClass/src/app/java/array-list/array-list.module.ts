@@ -7,7 +7,7 @@ import { ArrayXArrayListComponent } from './array-x-array-list/array-x-array-lis
 
 const JAVA_ARRAY_LIST = [
   {path: "", component: ArrayListComponent},
-  {path: "arraylist", component: ArrayListExampleComponent},
+  {path: "arraylist-examples", component: ArrayListExampleComponent},
   {path: "array-x-arraylist", component: ArrayXArrayListComponent},
 
 
