@@ -17,7 +17,7 @@ const JAVA_ARRAY = [
   {path: "find-a-match-in-array", component: SeachInArrayComponent},
   {path: "ref-memory-x-value-type", component: RefMemoryXValueTypeComponent},
   {path: "variable-arguments", component: VariableArgumentsComponent},
-  {path: "two-dimentional-arrays", component: DimentionArraysComponent},
+  {path: "dimention-arrays", component: DimentionArraysComponent},
 
 
 ];
