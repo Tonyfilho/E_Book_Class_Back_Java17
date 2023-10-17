@@ -8,7 +8,7 @@ import { SeachInArrayComponent } from './seach-in-array/seach-in-array.component
 import { RefMemoryXValueTypeComponent } from './ref-memory-x-value-type/ref-memory-x-value-type.component';
 import { VariableArgumentsComponent } from './variable-arguments/variable-arguments.component';
 
-import { DimentionArraysComponent } from './dimention-arrays/dimention-arrays.component';
+import { DimensionArraysComponent } from './dimension-arrays/dimension-arrays.component';
 
 const JAVA_ARRAY = [
   {path: "", component: ArrayComponent},
@@ -17,7 +17,7 @@ const JAVA_ARRAY = [
   {path: "find-a-match-in-array", component: SeachInArrayComponent},
   {path: "ref-memory-x-value-type", component: RefMemoryXValueTypeComponent},
   {path: "variable-arguments", component: VariableArgumentsComponent},
-  {path: "dimention-arrays", component: DimentionArraysComponent},
+  {path: "dimension-arrays", component: DimensionArraysComponent},
 
 
 ];
@@ -30,7 +30,7 @@ const JAVA_ARRAY = [
     SeachInArrayComponent,
     RefMemoryXValueTypeComponent,
     VariableArgumentsComponent,
-    DimentionArraysComponent
+    DimensionArraysComponent
   ],
   imports: [
     CommonModule,

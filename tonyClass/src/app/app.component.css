@@ -30,8 +30,8 @@ a:hover {
 }
 
 body {
-  width: 100%;
-  min-height: 98vh;
+  width: 100wv;
+  min-height: 86vh;
   /* height: max-content; */
   background: linear-gradient(68.15deg, #09031f 14.62%, #e0e2e6 85.61%);
   position: relative;
