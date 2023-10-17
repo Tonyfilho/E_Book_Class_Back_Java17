@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { SeachInArrayComponent } from './seach-in-array/seach-in-array.component';
 import { RefMemoryXValueTypeComponent } from './ref-memory-x-value-type/ref-memory-x-value-type.component';
 import { VariableArgumentsComponent } from './variable-arguments/variable-arguments.component';
+import { MultidimmentionalComponent } from './multidimmentional/multidimmentional.component';
+import { TwodimentionalComponent } from './twodimentional/twodimentional.component';
 
 const JAVA_ARRAY = [
   {path: "", component: ArrayComponent},
@@ -26,7 +28,9 @@ const JAVA_ARRAY = [
     ArraysComponent,
     SeachInArrayComponent,
     RefMemoryXValueTypeComponent,
-    VariableArgumentsComponent
+    VariableArgumentsComponent,
+    MultidimmentionalComponent,
+    TwodimentionalComponent
   ],
   imports: [
     CommonModule,
