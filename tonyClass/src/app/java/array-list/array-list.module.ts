@@ -4,6 +4,7 @@ import { ArrayListComponent } from './array-list.component';
 import { RouterModule } from '@angular/router';
 import { ArrayListExampleComponent } from './array-list-example/array-list-example.component';
 import { ArrayXArrayListComponent } from './array-x-array-list/array-x-array-list.component';
+import { ArrayXArraylistXLinkedlistComponent } from './array-x-arraylist-x-linkedlist/array-x-arraylist-x-linkedlist.component';
 
 const JAVA_ARRAY_LIST = [
   {path: "", component: ArrayListComponent},
@@ -20,7 +21,8 @@ const JAVA_ARRAY_LIST = [
   declarations: [
     ArrayListComponent,
     ArrayListExampleComponent,
-    ArrayXArrayListComponent
+    ArrayXArrayListComponent,
+    ArrayXArraylistXLinkedlistComponent
   ],
   imports: [
     CommonModule,
