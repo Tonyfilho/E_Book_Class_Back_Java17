@@ -12,7 +12,7 @@ const JAVA_ARRAY_LIST = [
   {path: "arraylist-examples", component: ArrayListExampleComponent},
   {path: "array-x-arraylist", component: ArrayXArrayListComponent},
   {path: "array-x-arraylist-x-linkedList", component: ArrayXArraylistXLinkedlistComponent},
-  {path: "linkedList", component: ArrayXArraylistXLinkedlistComponent},
+  {path: "linkedList", component: LinkedListComponent},
 
 
 
