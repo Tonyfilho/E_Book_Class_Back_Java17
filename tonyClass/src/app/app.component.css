@@ -13,7 +13,8 @@
 } */
 
 span {
-  padding-left: 1%;
+  padding:0;
+  margin: 0;
 }
 
 a {
@@ -27,6 +28,10 @@ a:hover {
 .bg-dark {
   background: linear-gradient(68.15deg, #09031f 14.62%, #07389b 85.61%);
 
+}
+
+header {
+  max-height: 6vh;
 }
 
 body {
