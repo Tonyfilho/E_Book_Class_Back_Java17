@@ -7,6 +7,7 @@ import { ArrayXArrayListComponent } from './array-x-array-list/array-x-array-lis
 import { ArrayXArraylistXLinkedlistComponent } from './array-x-arraylist-x-linkedlist/array-x-arraylist-x-linkedlist.component';
 import { LinkedListComponent } from './linked-list/linked-list.component';
 import { IteractorComponent } from './iteractor/iteractor.component';
+import { AutoboxingAndUnboxingToArrayAndListComponent } from './autoboxing-and-unboxing-to-array-and-list/autoboxing-and-unboxing-to-array-and-list.component';
 
 const JAVA_ARRAY_LIST = [
   {path: "", component: ArrayListComponent},
@@ -15,6 +16,7 @@ const JAVA_ARRAY_LIST = [
   {path: "array-x-arraylist-x-linkedList", component: ArrayXArraylistXLinkedlistComponent},
   {path: "linkedList", component: LinkedListComponent},
   {path: "iteractor", component: IteractorComponent},
+  {path: "autoboxing-and-unboxing", component: AutoboxingAndUnboxingToArrayAndListComponent},
 
 
 
@@ -29,7 +31,8 @@ const JAVA_ARRAY_LIST = [
     ArrayXArrayListComponent,
     ArrayXArraylistXLinkedlistComponent,
     LinkedListComponent,
-    IteractorComponent
+    IteractorComponent,
+    AutoboxingAndUnboxingToArrayAndListComponent
   ],
   imports: [
     CommonModule,
