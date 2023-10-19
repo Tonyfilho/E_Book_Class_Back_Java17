@@ -6,6 +6,7 @@ import { ArrayListExampleComponent } from './array-list-example/array-list-examp
 import { ArrayXArrayListComponent } from './array-x-array-list/array-x-array-list.component';
 import { ArrayXArraylistXLinkedlistComponent } from './array-x-arraylist-x-linkedlist/array-x-arraylist-x-linkedlist.component';
 import { LinkedListComponent } from './linked-list/linked-list.component';
+import { IteractorComponent } from './iteractor/iteractor.component';
 
 const JAVA_ARRAY_LIST = [
   {path: "", component: ArrayListComponent},
@@ -13,6 +14,7 @@ const JAVA_ARRAY_LIST = [
   {path: "array-x-arraylist", component: ArrayXArrayListComponent},
   {path: "array-x-arraylist-x-linkedList", component: ArrayXArraylistXLinkedlistComponent},
   {path: "linkedList", component: LinkedListComponent},
+  {path: "iteractor", component: IteractorComponent},
 
 
 
@@ -26,7 +28,8 @@ const JAVA_ARRAY_LIST = [
     ArrayListExampleComponent,
     ArrayXArrayListComponent,
     ArrayXArraylistXLinkedlistComponent,
-    LinkedListComponent
+    LinkedListComponent,
+    IteractorComponent
   ],
   imports: [
     CommonModule,
