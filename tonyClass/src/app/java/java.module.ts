@@ -10,6 +10,7 @@ import { StaticXInstanceMethodsComponent } from './ooP-Part01/static-x-instance-
 import { PojoComponent } from './ooP-Part01/pojo/pojo.component';
 import { RecordComponent } from './ooP-Part01/record/record.component';
 import { OrganizingJavaClassesComponent } from './ooP-Part01/organizing-java-classes/organizing-java-classes.component';
+import { EnumComponent } from './ooP-Part01/enum/enum.component';
 
 
 
@@ -24,6 +25,7 @@ const JAVA_ROUTER = [
   {path: "ooP-Part01/pojo", component: PojoComponent},
   {path: "ooP-Part01/record", component: RecordComponent},
   {path: "organizing-java-classes", component: OrganizingJavaClassesComponent},
+  {path: "ooP-Part01/enum", component: EnumComponent},
 ];
 
 @NgModule({
@@ -36,6 +38,7 @@ const JAVA_ROUTER = [
     PojoComponent,
     RecordComponent,
     OrganizingJavaClassesComponent,
+    EnumComponent,
 
 
 
