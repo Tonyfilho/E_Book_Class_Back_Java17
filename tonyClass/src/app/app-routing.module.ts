@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'java/casting', loadChildren: () => import('./java/casting/casting.module').then(module => module.CastingModule), canActivate: [AuthGuard] },
   { path: 'java/array', loadChildren: () => import('./java/array/array.module').then(module => module.ArrayModule), canActivate: [AuthGuard] },
   { path: 'java/arraylist', loadChildren: () => import('./java/array-list/array-list.module').then(module => module.ArrayListModule), canActivate: [AuthGuard] },
+  { path: 'java/modifiers', loadChildren: () => import('./java/modifiers/modifiers.module').then(module => module.ModifiersModule), canActivate: [AuthGuard] },
   { path: 'auth', loadChildren: () => import('./_auth/auth.module').then(module => module.AuthModule) },
   { path: '**', redirectTo: 'body' }
 
