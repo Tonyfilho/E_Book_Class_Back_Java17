@@ -16,6 +16,7 @@ import { EnumComponent } from './ooP-Part01/enum/enum.component';
 
 
 
+
 const JAVA_ROUTER = [
   {path: "", component: JavaComponent},
   {path: "ooP-Part01", component: OoPPart01Component},
@@ -39,6 +40,7 @@ const JAVA_ROUTER = [
     RecordComponent,
     OrganizingJavaClassesComponent,
     EnumComponent,
+  
 
 
 
