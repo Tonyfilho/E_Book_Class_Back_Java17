@@ -25,6 +25,7 @@ const routes: Routes = [
   { path: 'java/arraylist', loadChildren: () => import('./java/array-list/array-list.module').then(module => module.ArrayListModule), canActivate: [AuthGuard] },
   { path: 'java/modifiers', loadChildren: () => import('./java/modifiers/modifiers.module').then(module => module.ModifiersModule), canActivate: [AuthGuard] },
   { path: 'java/generics', loadChildren: () => import('./java/generics/genenics.module').then(module => module.GerenicsModule), canActivate: [AuthGuard] },
+  { path: 'java/lambda', loadChildren: () => import('./java/lambda/lambda.module').then(module => module.LambdaModule), canActivate: [AuthGuard] },
   { path: 'auth', loadChildren: () => import('./_auth/auth.module').then(module => module.AuthModule) },
   { path: '**', redirectTo: 'body' }
 
