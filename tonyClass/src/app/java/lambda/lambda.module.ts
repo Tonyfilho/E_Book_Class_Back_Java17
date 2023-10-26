@@ -4,6 +4,7 @@ import { LambdaComponent } from './lambda.component';
 import { IntroductionLambdaComponent } from './introduction-lambda/introduction-lambda.component';
 import { RouterModule } from '@angular/router';
 import { LambdaSintaxComponent } from './lambda-sintax/lambda-sintax.component';
+import { FunctionInterfacesConsulmerAndPredicateComponent } from './function-interfaces-consulmer-and-predicate/function-interfaces-consulmer-and-predicate.component';
 
 const JAVA_LAMBDA = [
   {path: "", component: LambdaComponent},
@@ -18,7 +19,8 @@ const JAVA_LAMBDA = [
   declarations: [
     LambdaComponent,
     IntroductionLambdaComponent,
-    LambdaSintaxComponent
+    LambdaSintaxComponent,
+    FunctionInterfacesConsulmerAndPredicateComponent
   ],
   imports: [
     CommonModule,

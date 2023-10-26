@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Result VAR: " + result4);
 
       //  System.out.println("--------Lambda with @FunctionalInterface Verbose Object--------");
-       // var result5 = calculator((a, b) -> a.toUpperCase() + " " + b.toUpperCase(), "Ralph"  + "Kramden");
+      //  var result5 = calculator((var a, var b) -> ((String) a).toUpperCase() + " " + ((String) b).toUpperCase(), "Ralph"  + "Kramden");
       //  System.out.println("Result VAR: " + result5);
 
       }
