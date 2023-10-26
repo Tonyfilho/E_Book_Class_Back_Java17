@@ -10,6 +10,7 @@ const JAVA_LAMBDA = [
   {path: "", component: LambdaComponent},
   {path: "introduction", component: IntroductionLambdaComponent},
   {path: "lambda-sintax", component: LambdaSintaxComponent},
+  {path: "lambda-func-interface-consulmer-predicate", component: FunctionInterfacesConsulmerAndPredicateComponent},
 
 
 ];
