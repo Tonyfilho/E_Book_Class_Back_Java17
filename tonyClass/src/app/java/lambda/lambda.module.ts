@@ -8,7 +8,8 @@ import { LambdaSintaxComponent } from './lambda-sintax/lambda-sintax.component';
 const JAVA_LAMBDA = [
   {path: "", component: LambdaComponent},
   {path: "introduction", component: IntroductionLambdaComponent},
-  
+  {path: "lambda-sintax", component: LambdaSintaxComponent},
+
 
 ];
 

@@ -21,9 +21,36 @@ public class Main {
 
        System.out.println("----------------");
        list.forEach((var myString) -> {
-          char first = myString.charAt((0));
-          System.out.println(myString + " means " +first);
-       });
-  }
+         char first = myString.charAt((0));
+         System.out.println(myString + " means " +first);
+        });
+
+        System.out.println("--------Lambda with @FunctionalInterface--------");
+        int result = calculator((a, b) -> a + b, 10 , 20);
+        System.out.println("Result: " + result);
+
+        System.out.println("--------Lambda with @FunctionalInterface Verbose Typed--------");
+        int result2 = calculator((Integer a,Integer b) -> a + b, 10 , 20);
+        System.out.println("Result Typed: " + result2);
+
+        System.out.println("--------Lambda with @FunctionalInterface Verbose VAR--------");
+        int result3 = calculator((var a, var b) -> a + b, 10 , 20);
+        System.out.println("Result VAR: " + result3);
+
+        System.out.println("--------Lambda with @FunctionalInterface Verbose VAR Double--------");
+        var result4 = calculator((var a,  var b) -> a / b, 10.0 , 2.5);
+        System.out.println("Result VAR: " + result4);
+
+      //  System.out.println("--------Lambda with @FunctionalInterface Verbose Object--------");
+       // var result5 = calculator((a, b) -> a.toUpperCase() + " " + b.toUpperCase(), "Ralph"  + "Kramden");
+      //  System.out.println("Result VAR: " + result5);
+
+      }
+
+      public static <T> T calculator(Operation<T> function, T value1, T value2) {
+          T result = function.operate(value1, value2);
+          System.out.println("Result of operation: " + result);
+          return result;
+      }
 
 }
