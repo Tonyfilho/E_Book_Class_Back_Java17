@@ -4,6 +4,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "String_Manitpulation",
+      "request": "launch",
+      "mainClass": "app.java.java_Certification.string.String_Manitpulation",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Scope",
+      "request": "launch",
+      "mainClass": "app.java.java_Certification.Scope",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
       "name": "Main2",
       "request": "launch",
       "mainClass": "Main2",
