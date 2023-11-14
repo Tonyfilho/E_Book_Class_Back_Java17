@@ -4,6 +4,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "String_Manipulating_Immutable",
+      "request": "launch",
+      "mainClass": "app.java.java_Certification.string.String_Manipulating_Immutable",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
       "name": "String_Manitpulation",
       "request": "launch",
       "mainClass": "app.java.java_Certification.string.String_Manitpulation",
