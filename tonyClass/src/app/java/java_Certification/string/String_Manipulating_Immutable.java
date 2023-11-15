@@ -1,4 +1,4 @@
-package app.java.java_Certification.string;
+package app.java.java_certification.string;
 
 public class String_Manipulating_Immutable {
 

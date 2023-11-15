@@ -1,4 +1,4 @@
-package app.java.java_Certification;
+package app.java.java_certification;
 
 public  class  Scope {
 
