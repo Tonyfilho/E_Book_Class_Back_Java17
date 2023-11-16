@@ -4,6 +4,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestFor",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.tesIfElseSwitch.TestFor",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
       "name": "OutOfTheOrdinaryConcepts",
       "request": "launch",
       "mainClass": "app.java.java_certification.operadores.OutOfTheOrdinaryConcepts",

@@ -49,6 +49,28 @@ public class OutOfTheOrdinaryConcepts {
     if( (c1 = true) || (a1= true) && ( b1= true));
     System.out.println(a1 +" " + b1 + " " + c1 + " ");
 
+
+    boolean a2 = true;
+    boolean b2 = false;
+    boolean c2 = false;
+    boolean d2 = false;
+    int   e2 = 1;
+    if (a2 == b2) ;
+    System.out.println("a == b");  // Line 1
+    if (c2 == d2)
+    System.out.println("c == d");  // Line 2
+    if (c2 = a2)
+    System.out.println("c == a");  // Line 3
+    if (a2 == c2)
+    System.out.println("a == c");  // Line 4
+    else ;
+    System.out.println("a != c");  // Line 5
+
+
+
+
+
+
   }
 
 }
