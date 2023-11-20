@@ -4,6 +4,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FinalMethodExample",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.methods.outdinayConcepts.FinalMethodExample",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "FinalClassExample",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.methods.outdinayConcepts.FinalClassExample",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "RestrictedObjects",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.methods.createAndUsingMethods.RestrictedObjects",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "ConstructorExample",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.construtores.methodsPassValueAndConstrucotrs.ConstructorExample",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test01",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.staticFields.Test01",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.staticFields.Test",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "FinalFields",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.staticFields.FinalFields",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "StartStaticFieldSamples",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.staticFields.StartStaticFieldSamples",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "StaticFieldSamples",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.staticFields.StaticFieldSamples",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "CallTest",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.construtores.CallTest",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "ArraysClass",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.arrays.ArraysClass",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
       "name": "TestFor",
       "request": "launch",
       "mainClass": "app.java.java_certification.tesIfElseSwitch.TestFor",
