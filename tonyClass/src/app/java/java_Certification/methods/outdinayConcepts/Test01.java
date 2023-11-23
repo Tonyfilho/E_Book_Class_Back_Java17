@@ -1,6 +1,9 @@
 package app.java.java_certification.methods.outdinayConcepts;
 
 class MethodTest {
+
+
+    
     public void methodA(boolean flag) {
         if (!flag) return;   // Line 1
         System.out.print("four");

@@ -4,7 +4,7 @@ class SuperTest {
  public SuperTest(int a) {}
 
  // public SuperTest(int a, int b) {}
- public SuperTest() { }
+ protected SuperTest() { }
 }
 
 public class Test extends SuperTest {
@@ -21,5 +21,5 @@ public class Test extends SuperTest {
   }
 
 
-  
+
 }
