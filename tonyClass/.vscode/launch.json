@@ -4,6 +4,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Test01",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.interfaceAndLambda.Test01",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.interfaceAndLambda.Test",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test03",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.mergeFunction.Test03",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test02",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.mergeFunction.Test02",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "app.java.java_certification.mergeFunction.Test",
+      "projectName": "tonyClass_dfd0a294"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "app.java.java_certification.modifiers.Test",
